@@ -89,4 +89,4 @@ cd fastapi-project
 docker-compose up --build
 ```
 ### 3. Access API Documentation
-[Insurance API Docs](http://localhost:/docs)
+[Insurance API Docs](http://localhost:8000/docs)
