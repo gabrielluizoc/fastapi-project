@@ -36,16 +36,6 @@ app.include_router(
 )
 
 if __name__ == "__main__":
-    """
-    Development server entry point.
-    
-    Starts a Uvicorn ASGI server on:
-    - Host: 0.0.0.0 (all interfaces)
-    - Port: 8000
-    
-    Note: For production deployments, use:
-    `uvicorn.run()` via command line with proper configuration.
-    """
     import uvicorn
 
     uvicorn.run(
